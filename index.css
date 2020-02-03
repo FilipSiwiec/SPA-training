@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+.upperLeft{
+    position: absolute;
+    width: 12.5vw;
+    top: 135px;
+}
+
+.mainBig{
+    position: absolute;
+    width: 43.5vw;
+    top: 0;
+    right: 0;
+}
+
+.logo{
+    position: absolute;
+    width: 5.7vw;
+    top: 21px;
+    left: 20.3vw;
+}
+
+.navBar{
+    font-family: 'Roboto', sans-serif;
+    height: 70px;
+    margin-left: 35.6vw;
+    margin-top: 4vw;
+    word-spacing: 2vw;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8vw;
+}
+
