@@ -2,67 +2,68 @@ body{
     margin: 0;
 }
 
-/* section1  */
-.upperLeft{
-    position: absolute;
-    width: 12.5vw;
-    top: 145px;
-}
-
 .mainBig{
     position: absolute;
-    width: 43.5vw;
     top: 0;
     right: 0;
+    width: 43.5vw;
 }
+
+.upperLeft{
+    position: absolute;
+    top: 145px;
+    width: 12.5vw;
+}
+
+.topbar{
+    display: flex;
+    margin-top: 20px;
+    position: absolute;
+    right: 40.7vw;
+}
+
 
 .logo{
-    position: absolute;
-    top: 21px;
-    left: 20.3vw;
-}
-
-.navBar{
-    font-family: 'Roboto', sans-serif;
-    height: 70px;
-    margin-left: 35.6vw;
-    margin-top: 3.8vw;
-    word-spacing: 2vw;
-   
-}
-
-a{
-    text-decoration: none;
-    color: #263a41;
-    font-size: 14px;
+    margin-right: 12.7vh;
 }
 
 .mainSection1{
-    width: 28.1vw;
-    margin-left: 20.3vw;
-    margin-top: 150px;
+    margin-left: 18.75vw;
+    width: 27.8vw;
+    margin-top: 268px;
+}
+
+a{
+    margin-right: 42px;
+    margin-top: 53px;
+    text-decoration:none; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #263a41;
+    flex-shrink: 4;
 }
 
 .title{
-    font-family: 'Rufina', serif;
+    top: 500px;
+    right: 39vw;
     color: #ff817e;
     font-size: 15px;
+    font-family: 'Rufina', sans-serif;
 }
 
 .keynote{
-    font-family: 'Rufina', serif;
     color: #1e2528;
     font-size: 60px;
-    margin-top: 30px;
-    line-height: 1.2;
+    font-family: 'Rufina', sans-serif;
+    padding-top: 16px;
 }
-
 .keyTxt{
-    font-size: 14px;
-    color: #ff817e;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #555555;
+    padding-top: 32px;
+    width: 25.8vw;
     line-height: 1.8;
-    margin: 20px 0 40px 0;
-    
 }
 
 /* button */
@@ -75,7 +76,8 @@ a{
 	font-family: 'Roboto', sans-serif;
 	font-size:13px;
 	padding: 13px 31px;
-	text-decoration:none;
+    text-decoration:none;
+    margin-left: -40px;
 }
 
 .myButton:hover {
@@ -90,12 +92,60 @@ a{
 
 .revStor {
     display: flex;
+    height: 96px;
+    margin-top: -15px;
+    width: 100vh;
 }
 
-.fas fa-play-circle{
-
+.play{
+    margin-top: 16px;
+    color:  #ff807e ;
 }
 
 .watch{
+    margin-left: 45px;
+    margin-top: -23px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    color: 555555;
+}
 
+.kwiatLewy{
+    
+}
+
+
+
+
+
+
+
+
+
+
+.container{
+    display: flex;
+    flex-shrink: 4;
+    bottom: 0;
+    width: 1000px;
+    position: fixed;
+    height: 100px;
+}
+
+.box1{
+    background-color: red;
+    width: 500px;
+    flex-shrink: 3;
+}
+
+.box2{
+    background-color: blue;
+    width: 500px;
+    flex-shrink: 3;
+}
+
+.box3{
+    background-color: red;
+    width: 500px;
+    flex-shrink: 3;
 }
