@@ -111,9 +111,49 @@ a{
 }
 
 .kwiatLewy{
-    
+    width: 100%;
+    height: auto;
 }
 
+.fRleft{
+    margin-top: 239px;
+    margin-left: 15.3vw;
+}
+
+.fBkwiat{
+    text-align: center;
+}
+
+.bottomTxt{
+    text-align: center;
+}
+
+.about{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #888888;
+}
+
+.come{
+    font-family: 'Rufina', sans-serif;
+    font-size: 42px;
+    color: #1e2528;
+}
+
+.fBright{
+    position: absolute;
+    right: 7vw;
+    top: 1198px;
+}
+
+.end{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #888888;
+    max-width: 46%;
+    text-align: center;
+    margin: auto;
+}
 
 
 
