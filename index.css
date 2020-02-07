@@ -41,6 +41,7 @@ a{
     font-size: 14px;
     color: #263a41;
     flex-shrink: 4;
+    font-weight: normal;
 }
 
 .title{
@@ -49,6 +50,8 @@ a{
     color: #ff817e;
     font-size: 15px;
     font-family: 'Rufina', sans-serif;
+    font-weight: normal;
+
 }
 
 .keynote{
@@ -56,6 +59,7 @@ a{
     font-size: 60px;
     font-family: 'Rufina', sans-serif;
     padding-top: 16px;
+    font-weight: bolder;
 }
 .keyTxt{
     font-family: 'Roboto', sans-serif;
@@ -64,9 +68,10 @@ a{
     padding-top: 32px;
     width: 25.8vw;
     line-height: 1.8;
+    font-weight: normal;
 }
 
-/* button */
+/* button  RESERVE NOW*/
 .myButton {
 	background:linear-gradient(to bottom, #ff807e 5%, #ff807e 100%);
 	background-color:#ff807e;
@@ -138,12 +143,15 @@ a{
     font-family: 'Rufina', sans-serif;
     font-size: 42px;
     color: #1e2528;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-weight: bold;
 }
 
 .fBright{
     position: absolute;
     right: 7vw;
-    top: 1198px;
+    top: 1176px;
 }
 
 .end{
@@ -153,39 +161,51 @@ a{
     max-width: 46%;
     text-align: center;
     margin: auto;
+    font-weight: lighter;
+    line-height: 1.7;
+    margin-top: 24px;
 }
 
+ /* button READ MORE */
 
-
-
-
-
-
-
-
-.container{
-    display: flex;
-    flex-shrink: 4;
-    bottom: 0;
-    width: 1000px;
-    position: fixed;
-    height: 100px;
+.myButton2 {
+	background: linear-gradient(to bottom, #ff807e 5%, #ff807e 100%);
+    background-color: #ff807e;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    padding: 21px 50px;
+    text-decoration: none;
+    margin: auto;
+    border-radius: 45px;
+    font-weight: lighter;
+    margin-top: 51px;
 }
 
-.box1{
-    background-color: red;
-    width: 500px;
-    flex-shrink: 3;
+.myButton2:hover {
+	background:linear-gradient(to bottom, #ff807e 5%, #ff807e 100%);
+	background-color:#ff807e;
 }
 
-.box2{
-    background-color: blue;
-    width: 500px;
-    flex-shrink: 3;
+.myButton2:active {
+	position:relative;
+	top:1px;
 }
+/* .btmBtn{
+    display: inline-block;
+    padding: 22px;
+    background-color:#ff807e;
+    border-radius: 45px;
+    width: 150px;
+    margin-top: 79px;
+ 
 
-.box3{
-    background-color: red;
-    width: 500px;
-    flex-shrink: 3;
-}
+
+
+
+
+
+
+
