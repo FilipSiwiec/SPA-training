@@ -3,7 +3,7 @@ body{
 }
 
 .logo{
-    margin: 17px 0 0 -17px;
+    margin: 17px 0 0 0;
     width: 120px;
 }
 
@@ -54,7 +54,7 @@ nav{
     font-family: 'Rufina', serif;
     color: #ff817e;
     font-size: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 23px;
     letter-spacing: 1.6px;
 }
 
@@ -65,8 +65,8 @@ nav{
     color: #1e2528;
     font-size: 60px;
     font-family: 'Rufina', serif;
-    font-weight: 500;
-    margin-bottom: 30px;
+    margin-bottom: 22px;
+    line-height: 75px;
 }
 
 .Main h3{
@@ -74,11 +74,14 @@ nav{
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    margin-bottom: 40px;
+    margin-bottom: 27px;
+    letter-spacing: 0.25px;
+    line-height: 1.9;
+    padding-right: 130px;
 }
 
 .Main{
-    margin: 200px 0 0 -31px;
+    margin: 200px 0 0 0;
 
 }
 
@@ -125,5 +128,9 @@ nav{
 
 .ti-arrow-right{
     margin: 10px;
+}
+
+.Aflower{
+    margin: 10.5% 0 0 15%;
 }
 
