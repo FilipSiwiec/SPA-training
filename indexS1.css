@@ -2,210 +2,128 @@ body{
     margin: 0;
 }
 
-.mainBig{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 43.5vw;
-}
-
-.upperLeft{
-    position: absolute;
-    top: 145px;
-    width: 12.5vw;
-}
-
-.topbar{
-    display: flex;
-    margin-top: 20px;
-    position: absolute;
-    right: 40.7vw;
-}
-
-
 .logo{
-    margin-right: 12.7vh;
+    margin: 17px 0 0 -17px;
+    width: 120px;
 }
 
-.mainSection1{
-    margin-left: 18.75vw;
-    width: 27.8vw;
-    margin-top: 268px;
+nav ul li{
+    display: inline-block;
+    padding: 80px 0 0 0;
+   
 }
 
-a{
-    margin-right: 42px;
-    margin-top: 53px;
-    text-decoration:none; 
-    font-family: 'Roboto', sans-serif;
+nav ul li a{
     font-size: 14px;
+    font-weight: 500;
     color: #263a41;
-    flex-shrink: 4;
-    font-weight: normal;
-}
-
-.title{
-    top: 500px;
-    right: 39vw;
-    color: #ff817e;
-    font-size: 15px;
-    font-family: 'Rufina', sans-serif;
-    font-weight: normal;
-
-}
-
-.keynote{
-    color: #1e2528;
-    font-size: 60px;
-    font-family: 'Rufina', sans-serif;
-    padding-top: 16px;
-    font-weight: bolder;
-}
-.keyTxt{
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    color: #555555;
-    padding-top: 32px;
-    width: 25.8vw;
-    line-height: 1.8;
-    font-weight: normal;
+    padding: 0px 19px;
 }
 
-/* button  RESERVE NOW*/
-.myButton {
-	background:linear-gradient(to bottom, #ff807e 5%, #ff807e 100%);
-	background-color:#ff807e;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family: 'Roboto', sans-serif;
-	font-size:13px;
-	padding: 13px 31px;
-    text-decoration:none;
-    margin-left: -40px;
+.bigDiv{
+    width: 43.4%;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
-.myButton:hover {
-	background:linear-gradient(to bottom, #ff807e 5%, #ff807e 100%);
-	background-color:#ff807e;
-}
-
-.myButton:active {
-	position:relative;
-	top:1px;
-}
-
-.revStor {
-    display: flex;
-    height: 96px;
-    margin-top: -15px;
-    width: 100vh;
-}
-
-.play{
-    margin-top: 16px;
-    color:  #ff807e ;
-}
-
-.watch{
-    margin-left: 45px;
-    margin-top: -23px;
-    font-size: 15px;
-    font-family: "Roboto", sans-serif;
-    color: 555555;
-}
-
-.kwiatLewy{
+.big{
+    display: block;
     width: 100%;
     height: auto;
 }
 
-.fRleft{
-    margin-top: 239px;
-    margin-left: 15.3vw;
+nav{
+    margin: -11px 0 0 -67px;
 }
 
-.fBkwiat{
-    text-align: center;
-}
-
-.bottomTxt{
-    text-align: center;
-}
-
-.about{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    color: #888888;
-}
-
-.come{
-    font-family: 'Rufina', sans-serif;
-    font-size: 42px;
-    color: #1e2528;
-    margin-top: 30px;
-    margin-bottom: 25px;
-    font-weight: bold;
-}
-
-.fBright{
+.leftFlower{
+    width: 12.4%;
     position: absolute;
-    right: 7vw;
-    top: 1176px;
+    top: 145px;
 }
 
-.end{
-    font-family: 'Roboto', sans-serif;
+.lFlower{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.spa{
+    font-family: 'Rufina', serif;
+    color: #ff817e;
     font-size: 15px;
-    color: #888888;
-    max-width: 46%;
-    text-align: center;
-    margin: auto;
-    font-weight: lighter;
-    line-height: 1.7;
-    margin-top: 24px;
+    margin-bottom: 30px;
+    letter-spacing: 1.6px;
 }
 
- /* button READ MORE */
 
-.myButton2 {
-	background: linear-gradient(to bottom, #ff807e 5%, #ff807e 100%);
-    background-color: #ff807e;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
+
+
+.Main h2{
+    color: #1e2528;
+    font-size: 60px;
+    font-family: 'Rufina', serif;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.Main h3{
+    color: #555555;
+    font-size: 15px;
     font-family: 'Roboto', sans-serif;
-    font-size: 13px;
-    padding: 21px 50px;
-    text-decoration: none;
-    margin: auto;
-    border-radius: 45px;
-    font-weight: lighter;
-    margin-top: 51px;
+    font-weight: 300;
+    margin-bottom: 40px;
 }
 
-.myButton2:hover {
-	background:linear-gradient(to bottom, #ff807e 5%, #ff807e 100%);
-	background-color:#ff807e;
+.Main{
+    margin: 200px 0 0 -31px;
+
 }
 
-.myButton2:active {
-	position:relative;
-	top:1px;
-}
-/* .btmBtn{
+.reserve{
+    background-color: #ff817e;
+    border-radius: 0;
+    color: #fff;
     display: inline-block;
-    padding: 22px;
-    background-color:#ff807e;
-    border-radius: 45px;
-    width: 150px;
-    margin-top: 79px;
- 
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 0.8;
+    text-transform: uppercase;
+    min-width: 170px;
+    padding: 20px 15px;
+    text-align: right;
+    margin-right: 45px;
+    margin-top: 20px;
+    
+}
 
+.ti-control-play{
+    border-radius: 50%;
+    background-color: #fcf5ee;
+    color: #ff817e;
+    display: inline-block;
+    line-height: 44px;
+    text-align: center;
+    margin-right: 10px;
+    height: 44px;
+    width: 44px;
+}
 
+.ti-control-play{
+    margin: 10px;
+    padding: 14px;
+}
 
+.video-btn{
+    color: #555;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
 
-
-
-
+.ti-arrow-right{
+    margin: 10px;
+}
 
