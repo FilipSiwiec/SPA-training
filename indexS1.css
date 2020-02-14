@@ -99,7 +99,6 @@ nav{
     text-align: right;
     margin-right: 45px;
     margin-top: 20px;
-    
 }
 
 .ti-control-play{
@@ -134,3 +133,58 @@ nav{
     margin: 10.5% 0 0 15%;
 }
 
+.flowerBottomRight{
+    position: absolute;
+    right: 135px;
+    top: 85%;
+}
+
+.text{
+    text-align: center;
+}
+
+.text img{
+    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.text h5{
+    font-family: 'Roboto', sans-serif;
+    color: #888;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: .8;
+    margin-bottom: 27px;
+}
+
+.text h3{
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+    color: #1e2528;
+    font-size: 42px;
+    margin-bottom: 32px;
+}
+
+.text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 27px;
+    color: #888;
+    margin-bottom: 73px;
+    padding: 0 11% 0;
+}
+
+.readMore{
+    background-color: #ff817e;
+    color: #fff;
+    display: inline-block;
+    min-width: 170px;
+    padding: 20px 15px;
+    border-radius: 30px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 0.8;
+}
